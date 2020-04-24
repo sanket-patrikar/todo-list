@@ -14,10 +14,14 @@ function getTask() {
 
 
 function makeTask() {
-    addTaskDiv = document.createElement("div");
-    addTaskText = document.createElement("p");
-    addTaskButton = document.createElement("button");
-    addTask();
+    if (taskInputted !== '' || taskInputted[0] !== ' '); 
+    {
+        addTaskDiv = document.createElement("div");
+        addTaskText = document.createElement("p");
+        addTaskButton = document.createElement("button");
+        addTask();
+    }   
+    
 }
 
 
