@@ -1,8 +1,8 @@
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
 }
 .task-button{
-    border-radius: 50%;
+    border-radius: 42%;
     padding: 10px;
     display: inline;
 }
